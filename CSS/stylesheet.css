@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(237, 216, 252);
+    margin: 0px;
+}
+
+#main-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2000px;
+    height: 4000px;
+    background-color: rgb(237, 216, 252);
+    border: solid 17px #b48dd3;
+}
+
+#heading {
+    align-items: center;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+#navigation {
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 2000px;
+    height: 231px;
+    background-color: #b48dd3;
+}
