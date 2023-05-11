@@ -25,7 +25,7 @@ body {
     font-size: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 #navigation {
@@ -57,6 +57,27 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 10px;
 }
 
+#intro-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 2000px;
+    height: 499px;
+    background-color: #3c175b;
+    color: #ffffff;
+    font-size: 100px;
+}
 
+#home-work {
+    width: 1000px;
+    height: 699px;
+    background-color: #9574af;
+    border: solid 17px #3c175b;
+    margin: 50px;
+    font-size: 80px;
+    color: #ffffff;
+}
