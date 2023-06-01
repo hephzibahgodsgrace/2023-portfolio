@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 body {
     background-color: rgb(237, 216, 252);
     display: flex;
@@ -21,23 +26,29 @@ body {
 }
 
 #heading {
+    left: 350px;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+}
+
+
+#name {
     color: rgb(255, 255, 255);
-    font-size: 100px;
+    font-size: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-family: 'Righteous', cursive;
 }
 
 #navigation {
-    justify-content: center;
-    align-items: center;
     position: absolute;
     left: 0;
     right: 0;
     width: 2000px;
-    height: 231px;
+    height: 631px;
     background-color: #b48dd3;
-    align-items: center;
 }
 
 ul {
@@ -45,11 +56,12 @@ ul {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 700px;
-    height: 60px;
+    width: 900px;
+    height: 80px;
     background-color: #66378d;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #page-links {
@@ -61,6 +73,7 @@ ul {
 }
 
 #intro-box {
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -70,14 +83,142 @@ ul {
     background-color: #3c175b;
     color: #ffffff;
     font-size: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#intro {
+    color: #be95e0;
+    height: 2000px;
+    width: 2000px;
+    transition-property: background-color color;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
+#intro:hover {
+    color: #ffffff;
+    transition-property: background-color color;
+    transition-duration: 1s;
+    transition-delay: .25s;
+    height: 2000px;
+    width: 2000px;
+}
+
+#workbox {
+    width: 2000px;
+    height: 720px;
+    background-color: #613e7b;
 }
 
 #home-work {
     width: 1000px;
-    height: 699px;
-    background-color: #9574af;
-    border: solid 17px #3c175b;
+    height: 700px;
+    background-color: #ac8dc5;
     margin: 50px;
-    font-size: 80px;
     color: #ffffff;
+    margin-top: 100px;
+}
+
+#work {
+    font-size: 150px;
+    outline: solid 17px #613e7b;
+    outline-width: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Righteous', cursive;
+}
+
+#work-p {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    margin: 20px;
+}
+
+#personalbox {
+    width: 2000px;
+    height: 720px;
+    background-color: #50157d;
+}
+
+#home-personal {
+    width: 1000px;
+    height: 700px;
+    background-color: #ac8dc5;
+    margin: 50px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+#personal {
+    font-size: 150px;
+    outline: solid 17px #50157d;
+    outline-width: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Righteous', cursive;
+}
+
+#personal-p {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    margin: 20px;
+}
+
+#aboutbox {
+    width: 2000px;
+    height: 720px;
+    background-color: #6c3795;
+}
+
+#home-about {
+    width: 1000px;
+    height: 700px;
+    background-color: #ac8dc5;
+    margin: 50px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+#about {
+    font-size: 150px;
+    outline: solid 17px #6c3795;
+    outline-width: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Righteous', cursive;
+}
+
+#about-p {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    margin: 20px;
+}
+
+#about-gallery {
+    width: 1000px;
+    height: 700px;
+    margin-top: 100px;
+}
+
+#logo-about {
+    position: absolute;
+    align-self: center;
+    margin-top: 132px;
+    right: 100px;
+}
+
+#artwork1 {
+    position: absolute;
+    align-self: center;
+    margin-top: 132px;
+    right: 100px;
+}
+#artwork2 {
+    position: absolute;
+    align-self: center;
+    margin-top: 132px;
+    right: 100px;
 }
